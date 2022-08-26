@@ -40,7 +40,7 @@ Mayaでは各種イベント情報や混雑情報などをすべてFirebaseの[R
 
 `uid`のドキュメントの下に権限情報を保存します。
 
-構造は以下の画像の通りです。
+構造は以下の画像の通りです。<br/>
 ![admin](img/admin.png)
 
 ## events
@@ -48,7 +48,7 @@ Mayaでは各種イベント情報や混雑情報などをすべてFirebaseの[R
 
 イベント情報はイベントIDをキーとして保存します。
 
-構造は以下の画像の通りです。
+構造は以下の画像の通りです。<br/>
 ![events_1](img/events_1.png)
 ![events_2](img/events_2.png)
 
@@ -57,8 +57,8 @@ Mayaでは各種イベント情報や混雑情報などをすべてFirebaseの[R
 
 予約情報は`uid`をキーとして、その下の`reservations`コレクションの中に予約IDをキーとして保存します。
 
-構造は以下の画像の通りです。
-![reservations_1](img/reservations_1.png)
+構造は以下の画像の通りです。<br/>
+![reservations_1](img/reservations_1.png)<br/>
 ![reservations_2](img/reservations_2.png)
 
 ## rooms
@@ -66,8 +66,8 @@ Mayaでは各種イベント情報や混雑情報などをすべてFirebaseの[R
 
 部屋情報は部屋IDをキーとして保存します。
 
-構造は以下の画像の通りです。
-![rooms_1](img/rooms_1.png)
+構造は以下の画像の通りです。<br/>
+![rooms_1](img/rooms_1.png)<br/>
 ![rooms_2](img/rooms_2.png)
 
 ## ticketTypes
@@ -75,7 +75,7 @@ Mayaでは各種イベント情報や混雑情報などをすべてFirebaseの[R
 
 チケットタイプ情報はチケットタイプIDをキーとして保存します。
 
-構造は以下の画像の通りです。
+構造は以下の画像の通りです。<br/>
 ![ticketTypes_1](img/ticketTypes_1.png)
 
 ## tickets
@@ -83,7 +83,7 @@ Mayaでは各種イベント情報や混雑情報などをすべてFirebaseの[R
 
 チケット情報はチケットIDをキーとして保存します。
 
-構造は以下の画像の通りです。
+構造は以下の画像の通りです。<br/>
 ![tickets_1](img/tickets_1.png)
 
 ## track
@@ -91,8 +91,8 @@ Mayaでは各種イベント情報や混雑情報などをすべてFirebaseの[R
 
 移動履歴データはチケットIDをキーとして保存し、その下の`tracks`コレクションに移動履歴を保存します。
 
-構造は以下の画像の通りです。
-![track_1](img/track_1.png)
+構造は以下の画像の通りです。<br/>
+![track_1](img/track_1.png)<br/>
 ![track_2](img/track_2.png)
 
 # RealTimeDB内のデータの構造について
@@ -100,5 +100,5 @@ RealTimeDB内には現在のお客さんの滞在状況を保存します。
 
 部屋のIDをキーとして、その値に現在の滞在人数を保存します。
 
-構造は以下の画像の通りです。
+構造は以下の画像の通りです。<br/>
 ![track_3](img/track_3.png)
