@@ -4,9 +4,9 @@
 ただし、このドキュメントで扱われているデータの多くはMayaによって自動的に管理されており、不用意に触るべきではありません。
 
 ## おそらく触るであろうデータ一覧
-- [admin]()
-- [events]()
-- [ticketTypes]()
+- [admin](https://github.com/Maya-org/Maya-doc/blob/main/doc/backend/DB-scheme.md#admin)
+- [events](https://github.com/Maya-org/Maya-doc/blob/main/doc/backend/DB-scheme.md#events)
+- [ticketTypes](https://github.com/Maya-org/Maya-doc/blob/main/doc/backend/DB-scheme.md#tickettypes)
 
 # DBの構成について
 
@@ -27,13 +27,13 @@ Mayaでは各種イベント情報や混雑情報などをすべてFirebaseの[R
 
 **詳しいデータ構造については[Backend](https://github.com/Maya-org/Maya-Reservation-Backend/blob/main/openapi/reference/Reservation-API.json)のOpenAPIドキュメントを参照してください。**
 
-- [admin]()
-- [events]()
-- [reservations]()
-- [rooms]()
-- [ticketTypes]()
-- [tickets]()
-- [track]()
+- [admin](https://github.com/Maya-org/Maya-doc/blob/main/doc/backend/DB-scheme.md#admin)
+- [events](https://github.com/Maya-org/Maya-doc/blob/main/doc/backend/DB-scheme.md#events)
+- [reservations](https://github.com/Maya-org/Maya-doc/blob/main/doc/backend/DB-scheme.md#reservations)
+- [rooms](https://github.com/Maya-org/Maya-doc/blob/main/doc/backend/DB-scheme.md#rooms)
+- [ticketTypes](https://github.com/Maya-org/Maya-doc/blob/main/doc/backend/DB-scheme.md#tickettypes)
+- [tickets](https://github.com/Maya-org/Maya-doc/blob/main/doc/backend/DB-scheme.md#tickets)
+- [track](https://github.com/Maya-org/Maya-doc/blob/main/doc/backend/DB-scheme.md#track)
 
 ## admin
 `admin`は主に権限情報を保存します。
